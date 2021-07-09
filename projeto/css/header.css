@@ -7,17 +7,18 @@
     box-sizing: border-box;    
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
-
-
-header{
+.navbar{
     background:oldlace;
     font-family: 'Poppins', sans-serif;
     height: 70px;  
     padding: 1px; 
-    
-    
+   
 }
+
 
 .navbar__contenedor{
     /* background: lightseagreen;    */
@@ -25,7 +26,7 @@ header{
     justify-content: space-around;
     align-items: center;     
     margin-top: 15px;
-    
+     
 }
 
 
