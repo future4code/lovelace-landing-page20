@@ -49,3 +49,10 @@ footer .redes-sociais-icons i:hover {
         margin-left: 0;
     }
 }
+
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* celulares */
+
+
+}
