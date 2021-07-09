@@ -128,7 +128,7 @@ p {
 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /* celulares */
     #container-serv{
-        background: cyan;
+        /* background: cyan; */
         flex-direction: column;
         justify-content: flex-start;
         flex-grow: 1;
