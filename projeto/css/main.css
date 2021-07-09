@@ -5,6 +5,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 main {
@@ -95,4 +96,61 @@ p {
 
 .container2 {
     display: flex;
+}
+
+
+@media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+    /* tablets */
+
+  
+
+    #container-serv{
+        background: cyan;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-grow: 1;
+        width: 40em;
+
+    }
+
+    #titulo {
+        /* background: burlywood; */
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 3em;
+    }
+
+
+}
+
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* celulares */
+    #container-serv{
+        background: cyan;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-grow: 1;
+        width: 25em;
+        height: 25em;
+
+    }
+
+    #titulo {
+        /* background: burlywood; */
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 3em;
+    }
+
+
+    .title{
+        margin: 120px 0;
+    }
+
+    .contato-content{
+        margin: 20px 0;
+    }
 }
