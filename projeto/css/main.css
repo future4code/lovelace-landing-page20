@@ -95,23 +95,4 @@ p {
 
 .container2 {
     display: flex;
-    background-color: oldlace;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    
-}
-
-#container-serv {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 1em 0 1em;
-    width: 100%;
-    height: auto;
-}
-
-#categoria {
-    font-weight: bold;
-    font-size: 2em;
 }
