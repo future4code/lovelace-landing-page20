@@ -23,6 +23,10 @@ p {
     width: 100%
 }
 
+#descricao {
+    padding: 0.5em 0 0 5em;
+}
+
 .container {
     display: flex;
     background-color: #C33949;
@@ -40,44 +44,42 @@ p {
 #serviços {
     display: flex;
     flex-direction: column;
-    background-color: oldlace;
     text-align: left;
     align-items: start;
     justify-content: left;
-    padding: 2em 20em;
+    padding: 4em 20em;
 }
 
 #vantagens {
     display: flex;
+    background-color: #C33949;
     flex-direction: column;
-    background-color: oldlace;
-    height: 40vh;
+    height: 40%;
     text-align: left;
     align-items: start;
     justify-content: left;
-    padding: 1em 20em;
+    padding: 4em 20em;
 }
 
 #clientes {
     display: flex;
     flex-direction: column;
-    background-color: oldlace;
-    height: 40vh;
+    height: 40%;
     text-align: left;
     align-items: start;
     justify-content: left;
-    padding: 1em 20em;
+    padding: 4em 20em;
 }
 
 #sobre-a-log {
     display: flex;
+    background-color: #C33949;
     flex-direction: column;
-    background-color: oldlace;
-    height: 40vh;
+    height: 40%;
     text-align: left;
     align-items: start;
     justify-content: left;
-    padding: 1em 20em;
+    padding: 4em 20em;
 }
 
 #titulo {
@@ -95,4 +97,42 @@ p {
 
 .container2 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    
+}
+
+#container-serv {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em 0 1em;
+    width: 100%;
+    height: auto;
+}
+
+.container-img {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em 0 1em;
+    width: 50px;
+    height: auto;
+}
+
+#img {
+    display: flex;
+    padding: 1em;
+}
+
+#img-log {
+    display: flex;
+    padding: 4em;
+    max-width: 25em;
+}
+
+#categoria {
+    font-weight: bold;
+    font-size: 2em;
+
 }
