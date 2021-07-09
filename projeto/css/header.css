@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+
+
+
+header{
+    background:oldlace;
+    font-family: 'Poppins', sans-serif;
+    height: 70px;  
+    padding: 1px; 
+    
+    
+}
+
+.navbar__contenedor{
+    /* background: lightseagreen;    */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;     
+    margin-top: 15px;
+    
+}
+
+
+.navbar__contenedor a{
+    transition: .9s ease-out all;  
+    text-decoration: none;
+    font-size: 22px;
+    color: black; 
+}
+
+
+.navbar__contenedor a:hover {
+	background: bisque;
+	color: #C4384A;
+	text-decoration: none;
+    font-weight: bolder;
+}
+
+
+.icone {
+    height: 1.7em;
+    margin-right: 12px;
+  }
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+    /* tablets */
+
+    .navbar__contenedor a{
+        transition: .9s ease-out all;  
+        text-decoration: none;
+        font-size: 18px;
+        color: black; 
+    }
+
+
+    }
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* celulares */
+
+    
+header{
+    background:oldlace;
+    font-family: 'Otomanopee One', sans-serif;
+    height: 28vh;  
+    padding: 1px;    
+    
+}
+
+.navbar__contenedor{
+        
+        display: flex;
+        justify-content: flex-start;
+        align-items: stretch; 
+        flex-direction: column;
+        transition: .9s ease-out all;
+    }
+
+    .icone {
+        height: 30px;
+        width: 30px;
+        
+      }
+    
+
+
+}
