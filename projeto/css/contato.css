@@ -1,0 +1,144 @@
+.contato {
+  display: block;
+  padding: 50px 4%;
+  width: 100%;
+}
+
+.contato h1 {
+  color: #C33949;
+  margin-bottom: 3rem;
+  font-family: 'Poppins', Helvetica, sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.contato-content {
+  display: flex;
+  padding: 60px 0;
+  justify-content: space-evenly;
+}
+
+/* text contato */
+
+.text-contato {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-contato p {
+  font-family: 'Poppins', Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.text-contato p:nth-child(2) {
+  color: #C33949;
+  margin-bottom: 5px;
+}
+
+.text-contato ul {
+  margin-top: 5px;
+}
+
+.text-contato ul li {
+  cursor: default;
+  font-family: 'Poppins', Helvetica, sans-serif;
+  list-style: none;
+  font-size: 20px;
+  transition: color .2s ease-in;
+}
+
+.text-contato ul li:hover {
+  color: #C33949;
+}
+
+/* form */
+
+.form-content h2 {
+  font-family: 'Poppins', Helvetica, sans-serif;
+  color: #C33949;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.form-content form {
+  width: 100%;
+  max-width: 500px;
+}
+
+form input, form textarea, button {
+  font-family: 'Poppins', Helvetica, sans-serif;
+  outline: 0;
+  transition: border 0.2s ease;
+}
+
+form input:focus, form textarea:focus {
+  border: 1px solid #C33949;
+}
+
+form .nome-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+form .nome-input input:nth-child(1) {
+  margin-right: 5px;
+}
+
+form .nome-input input, form .email input {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 18px;
+  padding: 10px 5px;
+}
+
+form .email input {
+  margin: 5px 0;
+}
+
+form .assunto textarea {
+  padding-top: 10px;
+  resize: none;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  font-size: 17px;
+  padding: 0 6px;
+  height: 100px;
+  width: 100%;
+}
+
+form button {
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  background-color: #C33949;
+  border: 0;
+  width: 150px;
+  height: 60px;
+  transition: all .3s ease;
+}
+
+form button:hover {
+  border: 1px solid #C33949;
+  background-color: transparent;
+  color: #C33949;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .contato-content {
+    display: flex;
+    padding: 60px 0;
+    flex-direction: column;
+    justify-content: space-s;
+  }
+
+  .form-content h2 {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    color: #C33949;
+    font-size: 18px;
+    margin: 30px 0 10px 0;
+  }
+}
