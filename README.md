@@ -11,28 +11,27 @@ PRINTS:
 
 01.
 
-![home] (https://github.com/future4code/lovelace-landing-page20/blob/master/prints/01.png)
+![home] (/prints/01.png?raw=true)
 
 02.
 
-![serviços] (https://github.com/future4code/lovelace-landing-page20/blob/master/prints/02.png)
+![serviços] (/prints/02.png?raw=true)
 
 03.
 
-![contato] (https://github.com/future4code/lovelace-landing-page20/blob/master/prints/03.png)
+![contato] (/prints/03.png?raw=true)
 
 04.
 
-![home] (https://github.com/future4code/lovelace-landing-page20/blob/master/prints/04.png)
+![home] (/prints/04.png?raw=true)
 
 05.
 
-![serviços] (https://github.com/future4code/lovelace-landing-page20/blob/master/prints/05.png)
+![serviços] (/prints/05.png?raw=true)
 
 06.
 
-![contato] (https://github.com/future4code/lovelace-landing-page20/blob/master/prints/06.png)
+![contato] (/prints/06.png?raw=true)
 
-### SURGE-Link:
-
+SURGE-Link:
 ruthless-wealth.surge.sh
