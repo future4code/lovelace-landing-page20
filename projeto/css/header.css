@@ -11,13 +11,19 @@ html{
     scroll-behavior: smooth;
 }
 
+header {
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
 .navbar{
     background:#C4384A;  
     font-family: 'Poppins', sans-serif;
     height: 70px;  
     padding: 1px;  
     position: sticky;
-	top: 0;     
+	top: 0;      
 }
 
 
@@ -31,7 +37,7 @@ html{
 
 
 .navbar__contenedor a{
-    transition: .9s ease-out all;  
+    transition: .2s ease-out all;  
     text-decoration: none;
     font-size: 22px;
     color: black; 
@@ -112,13 +118,13 @@ html{
 
     
 .navbar{
-    background:#C4384A;       
-    font-family: 'Poppins', sans-serif;
-    height: 14em;  
-    padding: 1px;  
-    position: sticky;
-	top: 0;     
-}
+        background:#C4384A;       
+        font-family: 'Poppins', sans-serif;
+        height: 14em;  
+        padding: 1px;  
+        position: sticky;
+        top: 0;     
+    }
 
 .navbar__contenedor{
         
