@@ -11,27 +11,28 @@ PRINTS:
 
 01.
 
-![home] (./prints/01.png))
+![home] (./prints/01.png)
 
 02.
 
-![serviços] (./prints/02.png))
+![serviços] (./prints/02.png)
 
 03.
 
-![contato] (./prints/03.png))
+![contato] (./prints/03.png)
 
 04.
 
-![home] (./prints/04.png))
+![home] (./prints/04.png)
 
 05.
 
-![serviços] (./prints/05.png))
+![serviços] (./prints/05.png)
 
 06.
 
-![contato] (./prints/06.png))
+![contato] (./prints/06.png)
 
-SURGE-Link:
+### SURGE-Link:
+
 ruthless-wealth.surge.sh
