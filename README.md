@@ -11,27 +11,27 @@ PRINTS:
 
 01.
 
-![home] (./prints/01.png)
+![home] (https://github.com/future4code/lovelace-landing-page20/blob/master/prints/01.png)
 
 02.
 
-![serviços] (./prints/02.png)
+![serviços] (https://github.com/future4code/lovelace-landing-page20/blob/master/prints/02.png)
 
 03.
 
-![contato] (./prints/03.png)
+![contato] (https://github.com/future4code/lovelace-landing-page20/blob/master/prints/03.png)
 
 04.
 
-![home] (./prints/04.png)
+![home] (https://github.com/future4code/lovelace-landing-page20/blob/master/prints/04.png)
 
 05.
 
-![serviços] (./prints/05.png)
+![serviços] (https://github.com/future4code/lovelace-landing-page20/blob/master/prints/05.png)
 
 06.
 
-![contato] (./prints/06.png)
+![contato] (https://github.com/future4code/lovelace-landing-page20/blob/master/prints/06.png)
 
 ### SURGE-Link:
 
