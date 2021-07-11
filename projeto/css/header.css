@@ -11,65 +11,64 @@ html{
     scroll-behavior: smooth;
 }
 
-header {
-    position: fixed;
-    top:0;
-    width: 100%;
-}
+@media screen and (min-device-width : 801px) {
 
-.navbar{
-    background:#C4384A;  
-    font-family: 'Poppins', sans-serif;
-    height: 70px;  
-    padding: 1px;  
-    position: sticky;
-	top: 0;      
-}
+    .navbar{
+        background:#C4384A;  
+        font-family: 'Poppins', sans-serif;
+        height: 70px;  
+        padding: 1px;  
+        position: fixed;
+        width: 100vw;
+        top: 0px;   
+    }
 
 
-.navbar__contenedor{
-    /* background: lightseagreen;    */
-    display: flex;
-    justify-content: space-around;
-    align-items: center;     
-    margin-top: 15px;
-   }
+    .navbar__contenedor{
+        /* background: lightseagreen;    */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;     
+        margin-top: 15px;
+    }
 
 
-.navbar__contenedor a{
-    transition: .2s ease-out all;  
-    text-decoration: none;
-    font-size: 22px;
-    color: black; 
+    .navbar__contenedor a{
+        transition: .2s ease-out all;  
+        text-decoration: none;
+        font-size: 22px;
+        color: black; 
+        
+    }
+
+
+    .navbar__contenedor a:hover {
+        /* background: bisque; */
+        color: black;
+        text-decoration: none;
+        font-weight: bolder;
+    }
     
+    /* .navbar__imagenContenedor{
+    filter: blur(3px);
+        opacity: 0.8;  
+    } */
+
+
+
+    .navbar__image{
+        width: 160em;
+        height: 120em;
+        
+    }
+
+
+    .icone {
+        height: 1.7em;
+        margin-right: 12px;
+    }
+
 }
-
-
-.navbar__contenedor a:hover {
-	/* background: bisque; */
-	color: black;
-	text-decoration: none;
-    font-weight: bolder;
-}
- 
-/* .navbar__imagenContenedor{
-  filter: blur(3px);
-    opacity: 0.8;  
-} */
-
-
-
-.navbar__image{
-    width: 160em;
-    height: 120em;
-    
-}
-
-
-.icone {
-    height: 1.7em;
-    margin-right: 12px;
-  }
 
 
 /* MEDIA QUERIES */
@@ -106,9 +105,9 @@ header {
         
     }   
 
-    .navbar__image{
-        height: 40em;
-        width: 50em;
+        .navbar__image{
+            height: 40em;
+            width: 50em;
     }
 
     }
@@ -117,7 +116,7 @@ header {
     /* celulares */
 
     
-.navbar{
+    .navbar{
         background:#C4384A;       
         font-family: 'Poppins', sans-serif;
         height: 14em;  
@@ -126,26 +125,27 @@ header {
         top: 0;     
     }
 
-.navbar__contenedor{
-        
-        display: flex;
-        justify-content: flex-start;
-        align-items: stretch; 
-        flex-direction: column;
-        transition: .9s ease-out all;
-    }
+    .navbar__contenedor{
+            
+            display: flex;
+            justify-content: flex-start;
+            align-items: stretch; 
+            flex-direction: column;
+            transition: .9s ease-out all;
+        }
 
-.icone {
-        height: 30px;
-        width: 30px;
-        
-      }
+    .icone {
+            height: 30px;
+            width: 30px;
+            
+        }
 
-.navbar__image{
-        height: 20em;
-        width: 26em;
-    }
-    
+    .navbar__image{
+            height: 20em;
+            width: 26em;
+        }
+        
 
 
 }
+
