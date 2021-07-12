@@ -10,6 +10,7 @@ Isso expressa o objetivo da Log4: simplicidade e agilidade.
 
 https://ruthless-wealth.surge.sh
 
+
 ##PRINTS:
 
 01.
