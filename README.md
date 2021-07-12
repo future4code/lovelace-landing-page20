@@ -8,7 +8,7 @@ Isso expressa o objetivo da Log4: simplicidade e agilidade.
 
 ## SURGE-Link:
 
-https://ruthless-wealth.surge.sh
+https://bent-maid.surge.sh
 
 
 ###PRINTS:
