@@ -6,8 +6,11 @@ Assim, foi escolhido trabalhar apenas com três cores: a de tom avermelhado, a c
 
 Isso expressa o objetivo da Log4: simplicidade e agilidade.
 
+## SURGE-Link:
 
-PRINTS:
+https://ruthless-wealth.surge.sh
+
+##PRINTS:
 
 01.
 
@@ -33,6 +36,4 @@ PRINTS:
 
 ![contato](https://github.com/future4code/lovelace-landing-page20/blob/master/prints/06.png)
 
-### SURGE-Link:
 
-ruthless-wealth.surge.sh
