@@ -118,11 +118,13 @@ html{
     
     .navbar{
         /* background:#a79497;        */
+        background:#C4384A;  
         font-family: 'Poppins', sans-serif;
         height: 10em;  
         position: sticky;
         /* border: 1px solid black; */
-        border-radius: 10%;
+        padding-left: 1em;
+        padding-top: 1em;
         top: 0;     
     }
 
