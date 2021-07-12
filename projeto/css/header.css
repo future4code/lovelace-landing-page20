@@ -16,11 +16,10 @@ html{
     .navbar{
         background:#C4384A;  
         font-family: 'Poppins', sans-serif;
-        height: 70px;  
-        padding: 1px;  
+        height: 50px;  
         position: fixed;
         width: 100vw;
-        top: 0px;   
+        
     }
 
 
@@ -28,7 +27,7 @@ html{
         /* background: lightseagreen;    */
         display: flex;
         justify-content: space-around;
-        align-items: center;     
+        align-items: flex-start;     
         margin-top: 15px;
     }
 
@@ -81,9 +80,10 @@ html{
     .navbar{
         background:#C4384A;  
         font-family: 'Poppins', sans-serif;
-        height: 60px;  
+        height: 60px;
+        width: 75vh;  
         padding: 1px;  
-        position: sticky;
+        position: fixed;
         top: 0;     
     }
     
@@ -97,17 +97,17 @@ html{
        }
 
 
-       .navbar__contenedor a{
-        transition: .9s ease-out all;  
-        text-decoration: none;
-        font-size: 18px;
-        color: black; 
+    .navbar__contenedor a{
+    transition: .9s ease-out all;  
+    text-decoration: none;
+    font-size: 13px;
+    color: black; 
         
     }   
 
-        .navbar__image{
-            height: 40em;
-            width: 50em;
+        .icone{
+            height: 2em;
+            width: 2em;
     }
 
     }
@@ -117,22 +117,31 @@ html{
 
     
     .navbar{
-        background:#C4384A;       
+        /* background:#a79497;        */
         font-family: 'Poppins', sans-serif;
-        height: 14em;  
-        padding: 1px;  
+        height: 10em;  
         position: sticky;
+        /* border: 1px solid black; */
+        border-radius: 10%;
         top: 0;     
     }
 
     .navbar__contenedor{
             
-            display: flex;
-            justify-content: flex-start;
-            align-items: stretch; 
-            flex-direction: column;
-            transition: .9s ease-out all;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start; 
+        flex-direction: column;
+        transition: .9s ease-out all;
         }
+
+    .navbar__contenedor a{
+        transition: .9s ease-out all;  
+        text-decoration: none;
+        font-size: 19px;
+        color: black; 
+            
+        }  
 
     .icone {
             height: 30px;
