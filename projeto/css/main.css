@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+}
+
+.section-white {
+    padding: 0 15em 3em 15em;
+}
+
+.section-red {
+    padding: 0 15em 3em 15em;
+    background-color: #C33949; 
+}
+
+.container-servs {
+    display: flex;
+}
+
+.title-serv {
+    font-family: 'Poppins';
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.title-red {
+    font-size: 2.5em;
+    color: #C33949;
+    text-align: center;
+    padding: 1em 0em 1em 0em;
+}
+
+.title-white {
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    padding: 1em 0em 1em 0em;
+}
+
+.texto-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.serv-img img {
+    display: flex;
+    height: 20vw;
+    align-items: center;
+    justify-content: center;
+}
+.client-img img {
+    display: flex;
+    height: 10vw;
+    align-items: space-around;
+    justify-content: center;
+}
+
+.princ-img img {
+    height: 100%;
+}
+
+.container-client {
+    display: flex;
+    justify-content:space-between;
+}
+
+.text {
+    font-size: 1.3em;
+    padding: 1em 2em 1em 4em;
+}
+
+#principal {
+    display: flex;
+    background-color: #C23949;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+    /* tablets */
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    
+
+    main {
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .section-white {
+        padding: 0 1em 3em 1em;
+    }
+    
+    .section-red {
+        padding: 0 1em 3em 1em;
+        background-color: #C33949; 
+    }
+    
+    .container-servs {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .title-serv {
+        font-family: 'Poppins';
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+    .title-red {
+        font-size: 2.5em;
+        color: #C33949;
+        text-align: center;
+        padding: 1em 0em 1em 0em;
+    }
+    
+    .title-white {
+        font-size: 2.5em;
+        color: white;
+        text-align: center;
+        padding: 1em 0em 1em 0em;
+    }
+    
+    .texto-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .serv-img img {
+        display: flex;
+        height: 20vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .client-img img {
+        display: flex;
+        height: 10vw;
+        align-items: space-around;
+        justify-content: center;
+    }
+    
+    .princ-img img {
+        width: 100vw;
+    }
+    
+    .container-client {
+        display: flex;
+        justify-content:space-between;
+    }
+    
+    .text {
+        font-size: 1em;
+        
+    }
+    
+    #principal {
+        display: flex;
+        background-color: #C23949;
+        justify-content: center;
+        align-items: flex-end;
+        height: 80vh;
+        width: 100vw;
+    }
+
+
+    }
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* celulares */
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    main {
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .section-white {
+        padding: 0 1em 3em 1em;
+    }
+    
+    .section-red {
+        padding: 0 1em 3em 1em;
+        background-color: #C33949; 
+    }
+    
+    .container-servs {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .title-serv {
+        font-family: 'Poppins';
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+    .title-red {
+        font-size: 2.5em;
+        color: #C33949;
+        text-align: center;
+        padding: 1em 0em 1em 0em;
+    }
+    
+    .title-white {
+        font-size: 2.5em;
+        color: white;
+        text-align: center;
+        padding: 1em 0em 1em 0em;
+    }
+    
+    .texto-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .serv-img img {
+        display: flex;
+        height: 20vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .client-img img {
+        display: flex;
+        height: 10vw;
+        align-items: space-around;
+        justify-content: center;
+    }
+    
+    .princ-img img {
+        width: 80vw;
+    }
+    
+    .container-client {
+        display: flex;
+        justify-content:space-between;
+    }
+    
+    .text {
+        font-size: 1em;
+        
+    }
+    
+    #principal {
+        display: flex;
+        background-color: #C23949;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+    }
+
+}

@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media screen and (min-device-width : 801px) {
+
+    .navbar{
+        background:#C4384A;  
+        font-family: 'Poppins', sans-serif;
+        height: 50px;  
+        position: fixed;
+        width: 100vw;
+        
+    }
+
+
+    .navbar__contenedor{
+        /* background: lightseagreen;    */
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;     
+        margin-top: 15px;
+    }
+
+
+    .navbar__contenedor a{
+        transition: .2s ease-out all;  
+        text-decoration: none;
+        font-size: 22px;
+        color: black; 
+        
+    }
+
+
+    .navbar__contenedor a:hover {
+        /* background: bisque; */
+        color: black;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+    
+    /* .navbar__imagenContenedor{
+    filter: blur(3px);
+        opacity: 0.8;  
+    } */
+
+
+
+    .navbar__image{
+        width: 160em;
+        height: 120em;
+        
+    }
+
+
+    .icone {
+        height: 1.7em;
+        margin-right: 12px;
+    }
+
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+    /* tablets */
+
+
+    
+    .navbar{
+        background:#C4384A;  
+        font-family: 'Poppins', sans-serif;
+        height: 60px;
+        width: 75vh;  
+        padding: 1px;  
+        position: fixed;
+        top: 0;     
+    }
+    
+    .navbar__contenedor{
+        /* background: lightseagreen;    */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;     
+        margin-top: 20px;
+
+       }
+
+
+    .navbar__contenedor a{
+    transition: .9s ease-out all;  
+    text-decoration: none;
+    font-size: 13px;
+    color: black; 
+        
+    }   
+
+        .icone{
+            height: 2em;
+            width: 2em;
+    }
+
+    }
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* celulares */
+
+    
+    .navbar{
+        /* background:#a79497;        */
+        background:#C4384A;  
+        font-family: 'Poppins', sans-serif;
+        height: 10em;  
+        position: sticky;
+        /* border: 1px solid black; */
+        padding-left: 1em;
+        padding-top: 1em;
+        top: 0;     
+    }
+
+    .navbar__contenedor{
+            
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start; 
+        flex-direction: column;
+        transition: .9s ease-out all;
+        }
+
+    .navbar__contenedor a{
+        transition: .9s ease-out all;  
+        text-decoration: none;
+        font-size: 19px;
+        color: black; 
+            
+        }  
+
+    .icone {
+            height: 30px;
+            width: 30px;
+            
+        }
+
+    .navbar__image{
+            height: 20em;
+            width: 26em;
+        }
+        
+
+
+}
+

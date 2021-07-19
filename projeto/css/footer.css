@@ -1,0 +1,58 @@
+footer {
+    align-items: center;
+    background-color: #c23949;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+
+footer .text-footer {
+    color: white;
+    text-align: center;
+}
+
+footer .logo img {
+    height: 90px;
+    width: 100px;
+}
+
+footer .redes-sociais-icons {
+    align-items: center;
+    display: flex;
+}
+
+footer .redes-sociais-icons i {
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    margin-left: 20px;
+    transition: color 0.2s ease-in;
+}
+
+footer .redes-sociais-icons i:hover {
+    color: rgb(99, 4, 4);
+}
+
+@media only screen and (max-width: 400px) {
+    footer {
+        flex-direction: column;
+        padding: 10px 2%;
+    }
+
+    footer .redes-sociais-icons {
+        justify-content: space-between;
+        margin-top: 20px;
+        width: 30%;
+    }
+
+    footer .redes-sociais-icons i {
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* celulares */
+
+
+}
